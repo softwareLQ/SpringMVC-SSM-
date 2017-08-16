@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- 员工mapper -->
+<mapper namespace="com.lq.mapper.EmpMapper" >
+    <!-- 通过id获取员工信息-->
+    <select id="selectEmpById" parameterType="java.lang.String" resultType="com.lq.entity.Emp">
+        select * from emp where id=#{id,jdbcType=BIGINT}
+    </select>
+</mapper>
