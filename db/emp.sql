@@ -10,4 +10,3 @@ CREATE TABLE `emp` (
   `hobbies` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-### mkd本身师傅的说法n
